@@ -152,25 +152,7 @@
       }
     }
   }
-},
-{
-      "title": "Sectiontest",
-      "id": "sections",
-      "components": [
-        {
-          "title": "Sectiontest",
-          "id": "section1",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/section/v1/section",
-                "template": {}
-              }
-            }
-          }
-        }
-      ]
-    }
+}
       ]
     }
   ]
