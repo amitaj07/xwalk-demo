@@ -206,7 +206,7 @@
   ]
 }
   {
-  "id": "section-test",
+  "id": "section1",
   "fields": [
     {
       "component": "multiselect",
