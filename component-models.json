@@ -205,6 +205,73 @@
     }
   ]
 },
+{
+  "id": "banner",
+  "fields": [
+    {
+      "component": "select",
+        "name": "banner type",
+        "value": "arch",
+        "label": "Banner Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Skinny",
+            "value": "skinny"
+          },
+          {
+            "name": "Arch",
+            "value": "arch"
+          }
+        ]
+    },
+    {
+      "component": "select",
+        "name": "Color",
+        "value": "grey",
+        "label": "Banner Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Blue",
+            "value": "blue"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          }
+        ]
+    },
+    {
+      "component": "select",
+        "name": "Alignment",
+        "value": "",
+        "label": "Text Alignment",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          }
+        ]
+    },
+    {
+      "component": "text-input",
+      "valueType": "string",
+      "name": "author",
+      "label": "Author",
+      "value": ""
+    }
+  ]
+},
   {
   "id": "section1",
   "fields": [

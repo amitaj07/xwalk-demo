@@ -12,6 +12,17 @@ import {
   loadCSS,
 } from './aem.js';
 
+/**
+ * create keylines from heading elements
+ * @param {Element} heading the heading element
+ */
+export function createKeyLine(heading) {
+  const u = heading.querySelector('u') || document.createElement('u');
+  heading.classList.add('keyline');
+  u.textContent = heading.textContent;
+  heading.replaceChildren(u);
+}
+
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
 /**
