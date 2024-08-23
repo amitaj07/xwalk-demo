@@ -1,0 +1,145 @@
+.banner {
+  padding: 1.5rem;
+  background: var(--gray-gradient);
+  color: var(--ups-black);
+  position: relative;
+  text-align: center;
+}
+
+.banner h2 {
+  text-align: left;
+}
+
+.banner.center , .banner.center h2 {
+  text-align: center;
+}
+
+.banner.blue,.banner.teal {
+  color: var(--white);
+}
+
+.banner p {
+  display: block;
+}
+
+.banner .button-wrapper a {
+  color: var(--ups-black);
+} 
+
+.banner p:last-child:not(.button-wrapper) {
+  color: var(--gray-1);
+  font-size: var(--body-font-size-s);
+  display: inline-block;
+  text-align: center;
+}
+
+.banner .keyline u::after {
+  margin: 1rem 0 0;
+}
+
+.banner.center .keyline u::after {
+  margin: 1rem auto auto;
+}
+
+.banner::after {
+  background: url('/icons/banner-arc.svg') no-repeat left bottom;
+  content: "";
+  position: absolute;
+  bottom: .5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: calc((100vw / 1440)* 484);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: 0;
+}
+
+/* end of default css (grey , arch) */
+
+.banner.skinny h2 {
+  font-size: var(--heading-font-size-xl);
+}
+
+.banner.skinny.has-no-button h2 {
+    text-align: center;
+}
+
+.banner.skinny {
+  text-align: left;
+}
+
+.banner.skinny::after {
+  background: none;
+  content: "";
+}
+
+.banner.teal {  
+  background: var(--teal-gradient);
+}
+
+.banner.blue {
+  background: var(--blue-gradient);
+}
+
+.banner.blue p:last-child , .banner.teal p:last-child {
+    color: var(--white);
+}
+
+.banner p.button-wrapper:last-child a{
+  color: var(--ups-black);
+}
+
+.banner.teal p:not(.button-wrapper) a , .banner.blue p:not(.button-wrapper) a {
+  color: var(--white);
+}
+
+.banner .button-wrapper {
+  margin-block: 0;
+  width: fit-content;
+  margin: auto;
+}
+
+.banner.skinny.center {
+  text-align: center;
+}
+
+@media (width >= 770px) {
+  .banner {
+    padding: 1.5rem 2rem;
+  }
+
+  .banner h2 {
+    text-align: center;
+  }
+
+  .banner.skinny.has-no-button {
+    text-align: center;
+  }
+
+  .banner.skinny.center , .banner.skinny h2{
+    text-align: left;
+  }
+  
+  .banner.skinny > div > div {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: 1fr;
+  }
+  
+  .banner .button-wrapper {
+    align-self: center;
+    justify-content: flex-end;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    margin-inline: 3.5rem 2rem;
+    width: unset;
+    margin: auto;
+  }
+
+  .banner .keyline u::after {
+    margin: 1rem auto auto;
+    content: '';
+  }
+}

@@ -11,6 +11,41 @@
  */
 
 :root {
+	 /* core colors */
+  --gold: #ffc400;
+  --brown: #351c15;
+
+  /* netral colors */
+  --gray-1: #5f5753;
+  --gray-2: #8c857e;
+  --gray-3: #bfb8af;
+  --gray-4: #dfdbd7;
+  --gray-5: #f2f1ef;
+  --gray-6: #f2ede9;
+  --white: #fff;
+
+  /* content colors */
+  --ups-black: #121212;
+
+  /* secondary colors */
+  --teal: #0a8080;
+  --blue: #0662bb;
+
+  /* gradients and shades */
+  --brown-gradient: linear-gradient(18.83deg, #7e5844 37.21%, #69422d 100%);
+  --gold-light: #ffd64c;
+  --teal-light: #e7f2f2;
+  --blue-dark: #0056b3;
+  --blue-darker: #105497;
+  --blue-gradient: linear-gradient(304.78deg, #326a9f -12.16%, #397ab7 61.1%);
+  --gray-gradient: linear-gradient(318.8deg, var(--gray-4) -11.42%, var(--gray-5) 58.01%);
+  --teal-gradient: linear-gradient(126.6deg, var(--teal) 30.6%, #097272 104.21%);
+
+  /* colors */
+  --background-color: var(--white);
+  --text-color: var(--ups-black);
+  --link-color: var(--blue);
+  --link-hover-color: var(--blue-darker);
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
