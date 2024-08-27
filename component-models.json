@@ -264,11 +264,11 @@
         ]
     },
     {
-      "component": "text-input",
-      "valueType": "string",
-      "name": "author",
-      "label": "Author",
-      "value": ""
+      "component": "richtext",
+      "name": "Banner text",
+      "value": "",
+      "label": "Banner text",
+      "valueType": "string"
     }
   ]
 },
