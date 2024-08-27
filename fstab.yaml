@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p136505-e1369289.adobeaemcloud.com/content/ups-xwalk"
+    url: "https://author-p136505-e1369289.adobeaemcloud.com/content/ups-localtest"
     type: "markup"
-    suffix: ".franklin.html?wcmmode=disabled"
+    suffix: ".html"
