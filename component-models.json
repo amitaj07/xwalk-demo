@@ -343,12 +343,6 @@
       "label": "CTA Text"
     },
     {
-      "component": "boolean",
-      "label": "Open in new window?",
-      "name": "teaser_secondary_openinnewwindow",
-      "valueType": "boolean"
-    },
-    {
       "component": "richtext",
       "name": "teaser_footNote",
       "label": "Footnote"
