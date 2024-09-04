@@ -273,7 +273,9 @@
     {
       "component": "text",
       "name": "teaser_assetAlt",
-      "label": "Alt Text"
+      "label": "Alt Text",
+      "valueType": "string",
+      "condition": { "===": [{"var" : "image"}, true] }
     },
     {
       "component": "text",
@@ -320,6 +322,12 @@
       "component": "text",
       "name": "teaser_secondaryLinkText",
       "label": "Primary CTA Text"
+    },
+    {
+      "component": "boolean",
+      "label": "Open in new window?",
+      "name": "teaser_secondary_openinnewwindow",
+      "valueType": "boolean"
     },
     {
       "component": "richtext",
