@@ -323,6 +323,26 @@
       "label": "Primary CTA Text"
     },
     {
+      "component": "aem-content",
+      "name": "teaser_link1",
+      "label": "CTA Link"
+    },
+    {
+      "component": "text",
+      "name": "teaser_link1Text",
+      "label": "CTA Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "teaser_link2",
+      "label": "CTA Link"
+    },
+    {
+      "component": "text",
+      "name": "teaser_link2Text",
+      "label": "CTA Text"
+    },
+    {
       "component": "boolean",
       "label": "Open in new window?",
       "name": "teaser_secondary_openinnewwindow",
