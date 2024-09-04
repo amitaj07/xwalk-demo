@@ -251,7 +251,7 @@
     },
     {
       "component": "select",
-      "name": "teaser_asset_type",
+      "name": "teaser_assetType",
       "label": "Asset Type",
       "options": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "component": "text",
-      "name": "teaser_imageAlt",
+      "name": "teaser_assetAlt",
       "label": "Alt Text"
     },
     {
@@ -282,9 +282,9 @@
     },
     {
       "component": "select",
-      "name": "teaser_title_type",
+      "name": "teaser_titleType",
       "label": "Title Type",
-      "value": "h2",
+      "value": "h1",
       "options": [
         {
           "name": "h1",
@@ -303,13 +303,13 @@
     },
     {
       "component": "aem-content",
-      "name": "teaser_primary_cta_link",
+      "name": "teaser_primaryCtaLink",
       "label": "Primary CTA Link"
     },
     {
       "component": "text",
-      "name": "teaser_secondary_link_text",
-      "label": "Primary CTA Text"
+      "name": "teaser_primaryLinkText",
+      "label": "Secondary CTA Text"
     },
     {
       "component": "aem-content",
@@ -318,12 +318,12 @@
     },
     {
       "component": "text",
-      "name": "teaser_primary_link_text",
-      "label": "Secondary CTA Text"
+      "name": "teaser_secondaryLinkText",
+      "label": "Primary CTA Text"
     },
     {
       "component": "richtext",
-      "name": "teaser_foot_note",
+      "name": "teaser_footNote",
       "label": "Footnote"
     }
   ]
