@@ -304,23 +304,23 @@
     },
     {
       "component": "aem-content",
-      "name": "teaser_primaryCtaLink",
+      "name": "teaser_primaryCta",
       "label": "Primary CTA Link"
     },
     {
       "component": "text",
-      "name": "teaser_primaryLinkText",
-      "label": "Secondary CTA Text"
+      "name": "teaser_primaryCtaText",
+      "label": "Primary CTA Text"
     },
     {
       "component": "aem-content",
-      "name": "teaser_secondary_cta_link",
+      "name": "teaser_secondaryCta",
       "label": "Secondary CTA Link"
     },
     {
       "component": "text",
-      "name": "teaser_secondaryLinkText",
-      "label": "Primary CTA Text"
+      "name": "teaser_secondaryCtaText",
+      "label": "Secondary CTA Text"
     },
     {
       "component": "aem-content",
