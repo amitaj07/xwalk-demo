@@ -206,6 +206,129 @@
   ]
 },
 {
+  "id": "teaser",
+  "fields": [
+    {
+      "component": "multiselect",
+      "name": "classes",
+      "value": "",
+      "label": "Teaser Style",
+      "valueType": "string",
+      "maxSize": 3,
+      "options": [
+        {
+          "name": "Background Style",
+          "children": [
+            {
+              "name": "Arch",
+              "value": "featured"
+            },
+            {
+              "name": "Plain",
+              "value": "plain"
+            }
+          ]
+        },
+        {
+          "name": "Teaser Color",
+          "children": [
+            {
+              "name": "Grey",
+              "value": "gray"
+            }
+          ]
+        },
+        {
+          "name": "Alignment",
+          "children": [
+            {
+              "name": "Invert",
+              "value": "invert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "select",
+      "name": "teaser_asset_type",
+      "label": "Asset Type",
+      "options": [
+        {
+          "name": "image",
+          "value": "image"
+        },
+        {
+          "name": "video",
+          "value": "video"
+        }
+      ]
+    },
+    {
+      "component": "reference",
+      "name": "teaser_asset",
+      "label": "Asset (image/video)",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "name": "teaser_imageAlt",
+      "label": "Alt Text"
+    },
+    {
+      "component": "text",
+      "name": "teaser_title",
+      "label": "Title"
+    },
+    {
+      "component": "select",
+      "name": "teaser_title_type",
+      "label": "Title Type",
+      "value": "h2",
+      "options": [
+        {
+          "name": "h1",
+          "value": "h1"
+        },
+        {
+          "name": "h2",
+          "value": "h2"
+        }
+      ]
+    },
+    {
+      "component": "richtext",
+      "name": "teaser_description",
+      "label": "Description"
+    },
+    {
+      "component": "aem-content",
+      "name": "teaser_primary_cta_link",
+      "label": "Primary CTA Link"
+    },
+    {
+      "component": "text",
+      "name": "teaser_secondary_link_text",
+      "label": "Primary CTA Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "teaser_secondary_cta_link",
+      "label": "Secondary CTA Link"
+    },
+    {
+      "component": "text",
+      "name": "teaser_primary_link_text",
+      "label": "Secondary CTA Text"
+    },
+    {
+      "component": "richtext",
+      "name": "teaser_foot_note",
+      "label": "Footnote"
+    }
+  ]
+},
+{
   "id": "banner",
   "fields": [
     {
@@ -269,16 +392,6 @@
       "value": "",
       "label": "Banner text",
       "valueType": "string"
-    },
-    {
-      "component": "checkbox-group",
-      "label": "Checkbox Group",
-      "name": "checkbox",
-      "valueType": "string[]",
-      "options": [
-        { "name": "Option 1", "value": "option1" },
-        { "name": "Option 2", "value": "option2" }
-      ]
     }
   ]
 },
