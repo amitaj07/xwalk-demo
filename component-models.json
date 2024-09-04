@@ -274,8 +274,7 @@
       "component": "text",
       "name": "teaser_assetAlt",
       "label": "Alt Text",
-      "valueType": "string",
-      "condition": { "===": [{"var" : "image"}, true] }
+      "valueType": "string"
     },
     {
       "component": "text",
