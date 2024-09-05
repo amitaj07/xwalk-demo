@@ -217,7 +217,7 @@
       "maxSize": 2,
       "options": [
         {
-          "name": "Background Style",
+          "name": "Teaser Style",
           "children": [
             {
               "name": "Arch",
