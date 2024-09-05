@@ -214,41 +214,40 @@
       "value": "",
       "label": "Teaser Style",
       "valueType": "string",
-      "maxSize": 3,
+      "maxSize": 2,
       "options": [
-        {
-          "name": "Background Style",
-          "children": [
-            {
-              "name": "Arch",
-              "value": "featured"
-            },
-            {
-              "name": "Plain",
-              "value": "plain"
-            }
-          ]
-        },
-        {
-          "name": "Teaser Color",
-          "children": [
-            {
-              "name": "Grey",
-              "value": "gray"
-            }
-          ]
-        },
-        {
-          "name": "Alignment",
-          "children": [
-            {
-              "name": "Invert",
-              "value": "invert"
-            }
-          ]
-        }
+          {
+              "name": "Teaser Style",
+              "children": [
+                  {
+                      "name": "Default",
+                      "value": ""
+                  },
+                  {
+                      "name": "Featured",
+                      "value": "featured"
+                  },
+                  {
+                      "name": "List",
+                      "value": "list"
+                  }
+              ]
+          }, 
+          {
+              "name": "Alignment",
+              "children": [
+                  {
+                      "name": "Default (Image in right and Text in left)",
+                      "value": ""
+                  },
+                  {
+                      "name": "Image in left and Text in right",
+                      "value": "invert"
+                  }
+              ]
+          } 
       ]
-    },
+  },
     {
       "component": "select",
       "name": "teaser_assetType",
