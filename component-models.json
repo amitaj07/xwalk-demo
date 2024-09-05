@@ -232,12 +232,16 @@
         {
           "name": "Alignment",
           "children": [
-            {
-              "name": "Invert",
-              "value": "invert"
-            }
+              {
+                  "name": "Default (Image in right and Text in left)",
+                  "value": ""
+              },
+              {
+                  "name": "Image in left and Text in right",
+                  "value": "invert"
+              }
           ]
-        }
+      } 
       ]
     },
     {
