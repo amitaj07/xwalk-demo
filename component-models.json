@@ -219,16 +219,20 @@
         {
           "name": "Teaser Style",
           "children": [
-            {
-              "name": "Arch",
-              "value": "featured"
-            },
-            {
-              "name": "Plain",
-              "value": "plain"
-            }
+              {
+                  "name": "Default",
+                  "value": ""
+              },
+              {
+                  "name": "Featured",
+                  "value": "featured"
+              },
+              {
+                  "name": "List",
+                  "value": "list"
+              }
           ]
-        },
+      }, 
         {
           "name": "Alignment",
           "children": [
