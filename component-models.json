@@ -211,7 +211,7 @@
     {
       "component": "multiselect",
       "name": "classes",
-      "value": "",
+      "value": "featured",
       "label": "Teaser Style",
       "valueType": "string",
       "maxSize": 2,
@@ -221,7 +221,7 @@
           "children": [
               {
                   "name": "Default",
-                  "value": "default"
+                  "value": ""
               },
               {
                   "name": "Featured",
